@@ -28,8 +28,6 @@ logging:
   level:
     org.hibernate.type.descriptor.sql.BasicBinder: DEBUG
     org.hibernate.type.descriptor.sql.BasicExtractor: DEBUG
-    com.thingsmatrix: DEBUG
-    software.amazon: DEBUG
   register-shutdown-hook: false
   file:
     name: /applogs/backend/${spring.application.name}.log
@@ -37,7 +35,5 @@ ftp:
   server:
     port: 3132
     passive-ports: "10000-10005"
-  user:
-    root-dir: "/ftp/"
 
 
