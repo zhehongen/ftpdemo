@@ -7,7 +7,7 @@ spring:
     name: ftp-demo
 
   datasource:
-    url: jdbc:mysql://mysql:3306/ftpdemo?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/ftpdemo?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password: thingsmatrix@8
     initialization-mode: always
